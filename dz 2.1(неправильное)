@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main() {
+	int Funt, Duym, Fut, rost, rost2, rost1;
+	float ves, IMB;
+	std::cout << "Vvedite rost v Futah: ";
+	std::cin >> Fut;
+	std::cout << "Vvedite rost v Duymah: ";
+	std::cin >> Duym;
+	std::cout << "Vvedite ves v Funtah: ";
+	std::cin >> Funt;
+	rost = Fut * 12;
+	rost1 = rost + Duym;
+	rost2 = rost1 * rost1;
+	ves = Funt / 2.2;
+	IMB = ves / rost2;
+	std::cout << "Vashe IMB ravno: " << IMB;
+
+return 0;
+}
